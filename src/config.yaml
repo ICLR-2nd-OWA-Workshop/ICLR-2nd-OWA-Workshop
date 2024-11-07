@@ -1,0 +1,66 @@
+site:
+  # name: ICML MFM-EAI Workshop
+  name: ICLR 2nd OWA Workshop
+  site: 'https://icml-mfm-eai.github.io'
+  base: '/'
+  trailingSlash: false
+
+  googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
+
+# Default SEO metadata
+metadata:
+  title:
+    default: ICLR 2nd OWA Workshop
+    template: '%s — ICLR 2nd OWA Workshop'
+  description: "ICLR 2nd OWA Workshop"
+  robots:
+    index: true
+    follow: true
+  openGraph:
+    site_name: ICLR 2nd OWA Workshop
+    images:
+      - url: '~/assets/images/default.png'
+        width: 1200
+        height: 628
+    type: website
+  twitter:
+    handle: '@onwidget'
+    site: '@onwidget'
+    cardType: summary_large_image
+
+i18n:
+  language: en
+  textDirection: ltr
+
+analytics:
+  vendors:
+    googleAnalytics:
+      id: null # or "G-XXXXXXXXXX"
+
+ui:
+  theme: 'light:only' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+
+  tokens:
+    default:
+      fonts:
+        sans: InterVariable
+        serif: InterVariable
+        heading: InterVariable
+      colors:
+        default: rgb(16 16 16)
+        heading: rgb(0 0 0)
+        muted: rgb(16 16 16 / 66%)
+        bgPage: rgb(255 255 255)
+        primary: rgb(1 97 239)
+        secondary: rgb(1 84 207)
+        accent: rgb(109 40 217)
+    dark:
+      fonts: {}
+      colors:
+        default: rgb(229 236 246)
+        heading: rgb(247, 248, 248)
+        muted: rgb(229 236 246 / 66%)
+        bgPage: rgb(3 6 32)
+        primary: rgb(1 97 239)
+        secondary: rgb(1 84 207)
+        accent: rgb(109 40 217)
