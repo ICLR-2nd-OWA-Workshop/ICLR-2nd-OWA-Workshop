@@ -1,7 +1,7 @@
 site:
   # name: ICML MFM-EAI Workshop
   name: ICLR 2nd OWA Workshop
-  site: 'https://icml-mfm-eai.github.io'
+  site: 'https://iclr-2nd-owa-workshop.github.io/'
   base: '/'
   trailingSlash: false
 
